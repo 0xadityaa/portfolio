@@ -10,7 +10,7 @@ function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
       "Gm, I am Aditya Negandhi",
-      "That-Crypto-Guy.sol",
+      "Code is Law",
       "Decentralizing Web One Block At A Time",
     ],
     loop: true,
@@ -21,7 +21,7 @@ function Hero({}: Props) {
       <BackgroundCircles />
       <img
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src="https://lh3.googleusercontent.com/a-/ACNPEu_PlRCrmTRN--3Ff94UPIE6lBuj6w0ihRai9C8U=s288-p-rw-no"
+        src="https://i.ibb.co/w0bjy6W/circle-cropped.png"
         alt="my pic"
       />
       <div className="z-20">
@@ -36,8 +36,8 @@ function Hero({}: Props) {
           <Link href="#about">
             <button className="heroButton">About</button>
           </Link>
-          <Link href="#blogs">
-            <button className="heroButton">Blogs</button>
+          <Link href="#experience">
+            <button className="heroButton">Experience</button>
           </Link>
           <Link href="#skills">
             <button className="heroButton">Skills</button>
